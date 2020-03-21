@@ -3,9 +3,9 @@
 
 title: Kross - Jekyll Portfolio Template
 logo: logo.png
-email: steve.fruits@email.com
-phone: +880 2544 658 256
-address: 125/A, CA Commercial Area, California, USA
+email: nhudait@berkeley.edu
+phone: 540 641 6840
+address: 1910 Oxford St. Berkeley, CA 94704
 
 menu:
 - {name: About, link: '/about/'}
@@ -15,14 +15,9 @@ menu:
 
 
 #-------------------------------
-# Google Analytics Section
+# Google Analytics
 
-# Analytics helps you understand who visits your website.
-# Learn more at: http://support.google.com/analytics/answer/1008065
-
-# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
-
-google-analytics: # UA-XXXXXX-X
+google-analytics: UA-161494947-1
 
 
 #-------------------------------
@@ -35,7 +30,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Christoher <br> UX designer
+  hero-title: Hi! I’m <br> Neha <br> Software Developer
 
 social:
 - {icon: "ti-facebook", link: "#"}
@@ -62,11 +57,11 @@ work-process:
   - title : "Research and Plan"
     icon : "assets/images/icons/plan.png"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    
+
   - title : "Design and Develop"
     icon : "assets/images/icons/design.png"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    
+
   - title : "Deliver"
     icon : "assets/images/icons/print.png"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
@@ -77,11 +72,11 @@ team:
   - title : "Jack Schenziwe"
     image : "assets/images/team/member-1.png"
     designation : "Project Manager"
-    
+
   - title : "Julias Carlie"
     image : "assets/images/team/member-2.png"
     designation : "Web Developer"
-    
+
   - title : "John Doe"
     image : "assets/images/team/member-3.png"
     designation : "Designer"
@@ -152,16 +147,16 @@ services:
 portfolio-home-items:
   - image : "assets/images/portfolio/item-1.png"
     url: "#"
-    
+
   - image : "assets/images/portfolio/item-2.png"
     url: "#"
-    
+
   - image : "assets/images/portfolio/item-3.png"
     url: "#"
-    
+
   - image : "assets/images/portfolio/item-4.png"
     url: "#"
-    
+
   - image : "assets/images/portfolio/item-5.png"
     url: "#"
 
@@ -187,45 +182,45 @@ portfolio-items:
     portfolio-type:
      - type: "design"
      - type: "illustration"
-      
+
   - image : "assets/images/portfolio/item-2.png"
     url: "#"
     portfolio-type:
       - type: "branding"
-      
+
   - image : "assets/images/portfolio/item-3.png"
     url: "#"
     portfolio-type:
       - type: "illustration"
-      
+
   - image : "assets/images/portfolio/item-6.png"
     url: "#"
     portfolio-type:
       - type: "design"
       - type: "branding"
-      
+
   - image : "assets/images/portfolio/item-8.png"
     url: "#"
     portfolio-type:
       - type: "illustration"
-      
+
   - image : "assets/images/portfolio/item-5.png"
     url: "#"
     portfolio-type:
       - type: "design"
-      
+
   - image : "assets/images/portfolio/item-1.png"
     url: "#"
     portfolio-type:
       - type: "branding"
-      
+
   - image : "assets/images/portfolio/item-3.png"
     url: "#"
     portfolio-type:
       - type: "design"
       - type: "illustration"
       - type: "branding"
-      
+
   - image : "assets/images/portfolio/item-7.png"
     url: "#"
     portfolio-type:
@@ -240,12 +235,12 @@ testimonial-items:
     image: "assets/images/testimonial/client-1.png"
     designation : "CEO, Funder"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-    
+
   - name: "Jesica Gomez"
     image: "assets/images/testimonial/client-1.png"
     designation: "CEO, Funder"
     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-    
+
   - name: "Jesica Gomez"
     image: "assets/images/testimonial/client-1.png"
     designation: "CEO, Funder"
@@ -258,31 +253,31 @@ testimonial-items:
 client-slider-items:
   - logo: "assets/images/clients-logo/client-logo-1.png"
     url: "#"
-    
+
   - logo: "assets/images/clients-logo/client-logo-2.png"
     url: "#"
-    
+
   - logo: "assets/images/clients-logo/client-logo-3.png"
     url: "#"
-    
+
   - logo: "assets/images/clients-logo/client-logo-4.png"
     url: "#"
-    
+
   - logo: "assets/images/clients-logo/client-logo-5.png"
     url: "#"
-    
+
   - logo: "assets/images/clients-logo/client-logo-1.png"
     url: "#"
-    
+
   - logo: "assets/images/clients-logo/client-logo-2.png"
     url: "#"
-    
+
   - logo: "assets/images/clients-logo/client-logo-3.png"
     url: "#"
-    
+
   - logo: "assets/images/clients-logo/client-logo-4.png"
     url: "#"
-    
+
   - logo: "assets/images/clients-logo/client-logo-5.png"
     url: "#"
 
@@ -290,4 +285,4 @@ client-slider-items:
 # Contact Section
 
 contact-title: Contact Info
-contact-email: steve.fruits@email.com
+contact-email: nhudait@berkeley.edu
