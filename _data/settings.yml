@@ -54,17 +54,17 @@ blurb-btn-name: Learn More
 
 # Work Process Section
 work-process:
-  - title : "Research and Plan"
-    icon : "assets/images/icons/plan.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  - title : "Healthcare"
+    icon : "assets/images/icons/health.png"
+    content : "I am passionate about applying my skills to the healthcare sector.  My experience with UCSF allows me to explore healthcare on a deeper level"
 
-  - title : "Design and Develop"
-    icon : "assets/images/icons/design.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  - title : "Education"
+    icon : "assets/images/icons/book.png"
+    content : "My project, Learnability, allows me to help bring equity to school districts in my area."
 
-  - title : "Deliver"
-    icon : "assets/images/icons/print.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  - title : "Sustainable Energy"
+    icon : "assets/images/icons/earth.png"
+    content : "Sustainable energy and environmental justice has always fascinated me. I have been working on solar cells since I was 16."
 
 
 # My Team Section
