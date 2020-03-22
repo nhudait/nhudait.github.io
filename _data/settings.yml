@@ -251,34 +251,82 @@ testimonial-items:
 # Client Slider Section
 
 client-slider-items:
-  - logo: "assets/images/clients-logo/client-logo-1.png"
+  - logo: "assets/images/clients-logo/1.png"
     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-2.png"
+  - logo: "assets/images/clients-logo/2.png"
     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-3.png"
+  - logo: "assets/images/clients-logo/3.png"
     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-4.png"
+  - logo: "assets/images/clients-logo/4.png"
     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-5.png"
+  - logo: "assets/images/clients-logo/5.png"
     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-1.png"
+  - logo: "assets/images/clients-logo/6.png"
     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-2.png"
+  - logo: "assets/images/clients-logo/7.png"
     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-3.png"
+  - logo: "assets/images/clients-logo/8.png"
     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-4.png"
+  - logo: "assets/images/clients-logo/9.png"
     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-5.png"
+  - logo: "assets/images/clients-logo/10.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/11.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/12.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/13.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/1.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/2.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/3.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/4.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/5.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/6.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/7.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/8.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/9.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/10.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/11.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/12.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/13.png"
     url: "#"
 
 #-------------------------------

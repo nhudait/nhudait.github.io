@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  Amazon increase income 1.5 Million
+title:  CS 61A Structure and Interpretration of Computer Programs
 date:   2017-05-26 15:05:55 +0300
 image:  post-5.jpg
-author: uixgeek
+author: Neha Hudait
 tags:   UX design
 ---
 ![post-thumb]({{site.baseurl}}/assets/images/blog/post-1.jpg){:class="img-fluid rounded float-left mr-5 mb-4"}
