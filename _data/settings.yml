@@ -87,10 +87,10 @@ team:
 
 skills-title: Skills
 skills:
-- {name: Web Design, color: '#fdb157', value: '90%'}
-- {name: Logo Design, color: '#9473e6', value: '60%'}
-- {name: After Effects, color: '#bdecf6', value: '80%'}
-- {name: Web App, color: '#ffbcaa', value: '70%'}
+- {name: "Python, Java, C/C++" , color: '#fdb157', value: '100%'}
+- {name: "HTML, CSS, node.js", color: '#9473e6', value: '80%'}
+- {name: "Ruby, React", color: '#bdecf6', value: '75%'}
+- {name: "Go, Swift", color: '#ffbcaa', value: '70%'}
 
 
 #-------------------------------
@@ -108,10 +108,10 @@ experience:
 
 education-title: Education
 education:
-- {name: Marters in UX Design, date: '2006', organization: 'Masassusets Institute of Technology'}
-- {name: Honours in Fine Arts, date: '2004', organization: 'Harvard University'}
-- {name: Higher Secondary Certificat, date: '2000', organization: 'Cardiff School'}
-- {name: Secondary School Certificate, date: '1998', organization: 'Cardiff School'}
+- {name: B.S. in Electrical Engineering & Computer Science, date: '2018-2022 (expected)', organization: 'University of California, Berkeley, College of Engineering'}
+- {name: B.S. in Business Administration, date: '018-2022 (expected)', organization: 'University of California: Berkeley, Haas School of Business'}
+- {name: Minor in Global Poverty and Practice, date: '2020-2022 (expected)', organization: 'University of California: Berkeley: Blum Center for Developing Economies'}
+- {name: Berkeley Certificate for Design Innovation, date: '2019-2022 (expected)', organization: 'University of California: Berkeley: Jacobs Institute for Design Innovation'}
 
 
 #-------------------------------
