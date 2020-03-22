@@ -44,7 +44,7 @@ social:
 
 # About Section
 blurb:
-  Hi! Welcome to my website. I am a current sophomore at UC Berkeley studying <br> Electrical Engineering & Computer Science <br> and <br> Business Administration <br> through the M.E.T Program. I am passionate about bridging the gap between technology and accessibility.
+  Hi! Welcome to my website. I am a current sophomore at UC Berkeley studying <b> Electrical Engineering & Computer Science <b> and <b> Business Administration <b> through the M.E.T Program. I am passionate about bridging the gap between technology and accessibility.
 
 blurb-btn-link: '/about'
 blurb-btn-name: Learn More
