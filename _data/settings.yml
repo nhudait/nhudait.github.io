@@ -30,7 +30,9 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Neha Hudait <br> Software Developer
+  hero-title: Hi! I’m <br> Neha Hudait <br>
+  #<script src="js/titletyping.js"></script>
+
 
 social:
 - {icon: "ti-linkedin", link: "https://www.linkedin.com/in/nehahudait/"}
