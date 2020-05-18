@@ -7,7 +7,7 @@
       </div>
       <div class="col-lg-8 mx-auto">
         <div class="bg-white rounded text-center p-5 shadow-down">
-          <h4 class="mb-80">Contact Form</h4>
+          <h4 class="mb-80">Schedule a Meeting</h4>
           <form action="https://formspree.io/{{ site.data.settings.contact-email }}" method="POST" class="row">
             <div class="col-md-6">
               <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4">
@@ -15,20 +15,25 @@
             <div class="col-md-6">
               <input type="email" id="email" name="_replyto" placeholder="Email Address" class="form-control px-0 mb-4">
             </div>
+            <br>
             <div class="col-12">
               <textarea name="message" id="message" class="form-control px-0 mb-4"
                 placeholder="Type Message Here"></textarea>
             </div>
-            <div class="col-lg-6 col-10 mx-auto">
+            <br>
+            <div class="col-lg-6 col-12 mx-auto">
+              <br>
               <button type="submit" class="btn btn-primary w-100">send</button>
+              <br>
             </div>
           </form>
         </div>
       </div>
       <!-- Calendly inline widget begin -->
-<div class="calendly-inline-widget" data-url="https://calendly.com/hudait?primary_color=6615e6" style="min-width:320px;height:630px;"></div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
-<!-- Calendly inline widget end -->
+      <div class="calendly-inline-widget" data-url="https://calendly.com/hudait?primary_color=6615e6" style="min-width:320px;height:630px;">
+      </div>
+      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+      <!-- Calendly inline widget end -->
     </div>
   </div>
 </section>
