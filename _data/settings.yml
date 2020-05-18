@@ -46,7 +46,7 @@ social:
 
 # About Section
 blurb:
-  Hello! Welcome to my website. I am a rising Junior at the University of California, Berkeley. I am currently studying <b> Electrical Engineering & Computer Science </b> and <b> Business Administration </b> through the Management, Entrepreneurship, and Technology (M.E.T.) Program. I am passionate about bridging the gap between technology and accessibility. Please feel free to take a look around my website and contact me at nhudait@berkeley.edu
+  Hello! Welcome to my website. I am a Junior at the University of California, Berkeley. I am currently studying <b> Electrical Engineering & Computer Science </b> and <b> Business Administration </b> through the Management, Entrepreneurship, and Technology (M.E.T.) Program. I am passionate about bridging the gap between technology and accessibility. Please feel free to take a look around my website and contact me at nhudait@berkeley.edu
 
 blurb-btn-link: '/about'
 blurb-btn-name: Learn More
@@ -234,20 +234,20 @@ portfolio-items:
 # Testimonials Section
 
 testimonial-items:
-  - name: "Jesica Gomez"
+  - name: "Institute of Electrical and Electronic Engineers - External Vice President"
     image: "assets/images/testimonial/client-1.png"
-    designation : "CEO, Funder"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    designation : "2019-Present"
+    content : "I primarily lead and facilitate all activities relating to the IEEE Student Branch and EECS Department as a whole. I work closely with the EECS External Relations Group to help companies recurit students within IEEE and EECS. In addition, I serve as a member of the Undergraduate Study Committee where I highlight to EECS faculty and staff the most pressing issues undergraduates face. I organize committees to plan and execute professional development and industry events, and write guides to help students navigate during turbulent times."
 
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  - name: "EECS Women in History Month Lead"
+    image: "assets/images/testimonial/client-2.png"
+    designation: "2019-Present"
+    content: "I spearheaded the planning and execution of EECS Women's History month by creating and facilitating a speaker panel highlighting equality and representation in research and industry within the EECS field. In addition, I coordinated newsletters, events, and panels with the UC Berkeley EECS Department and several student organizaations in an effort to celebrate and inspire young women looking to pursue EE/CS"
 
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  - name: "Student Technology Services - Student Technology Consultant"
+    image: "assets/images/testimonial/client-3.png"
+    designation: "2020-Present"
+    content: "I troubleshoot and assist students in resolving software-related problems such as helping wired/wireless/VPN connectivity issues, provide first level support for security incidents involving virus/malware removal, and develop educational resources to help the general public become more technologically literate."
 
 
 #-------------------------------

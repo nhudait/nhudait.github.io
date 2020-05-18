@@ -6,7 +6,7 @@ image: assets/images/about/author.jpg
 signature: assets/images/about/signature.png
 ---
 
-Hello My name is Neha Hudait and I am a rising junior at the University of California, Berkeley.
+Hello My name is Neha Hudait and I am a junior at the University of California, Berkeley.
 
 I am currently pursuing a dual-degree in **Electrical Engineering & Computer Science** and **Business Administration** through the College of Engineering and Haas School of Business. I am passionate about bridging the gap between technology and accessibility, and have dedicated much of my academic and professional career towards improving accessibility to technology for every day consumers.
 
