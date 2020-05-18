@@ -5,12 +5,12 @@ title: Neha Hudait Portfolio Site
 logo: logo.png
 email: nhudait@berkeley.edu
 phone: 540 641 6840
-address: 1910 Oxford St. Berkeley, CA 94704
+address: 130 Blum Hall, Berkeley, CA 94704
 
 menu:
 - {name: About, link: '/about'}
-- {name: Blog, link: '/blog'}
-- {name: Portfolio, link: '/portfolio'}
+- {name: Courses, link: '/blog'}
+- {name: Resume, link: '/portfolio'}
 - {name: Contact, link: '/contact'}
 
 
@@ -46,7 +46,7 @@ social:
 
 # About Section
 blurb:
-  Hi! Welcome to my website. I am a current sophomore at UC Berkeley studying <b> Electrical Engineering & Computer Science </b> and <b> Business Administration </b> through the M.E.T Program. I am passionate about bridging the gap between technology and accessibility.
+  Hello! Welcome to my website. I am a rising Junior at the University of California, Berkeley. I am currently studying <b> Electrical Engineering & Computer Science </b> and <b> Business Administration </b> through the Management, Entrepreneurship, and Technology (M.E.T.) Program. I am passionate about bridging the gap between technology and accessibility. Please feel free to take a look around my website and contact me at nhudait@berkeley.edu
 
 blurb-btn-link: '/about'
 blurb-btn-name: Learn More
@@ -98,11 +98,12 @@ skills:
 #-------------------------------
 # Exprerience Section
 
-experience-title: Recent Experience
+experience-title: Experience
 experience:
-- {name: Machine Learning Developer, icon: 'icon-1.png', date: 'Jan 2007 - Feb 2009', organization: 'University of San Francisco Medical Center'}
-- {name: Data Analyst, icon: 'icon-2.png', date: 'Mar 2009 - Aug 2014', organization: 'UC Berkeley Goldman School of Public Policy'}
-- {name: Full Stack Developer, icon: 'icon-3.png', date: 'Sep 2014 - Present', organization: 'Block.One'}
+- {name: Incoming Technical Product Management Intern , icon: 'icon-1.png', date: 'Jun 2020 - Present', organization: 'SAP Ariba'}
+- {name: Machine Learning Developer, icon: 'icon-2.png', date: 'Jan 2020 - Present', organization: 'University of California, San Francisco Medical Center'}
+- {name: Data Analyst, icon: 'icon-3.png', date: 'Jan 2020 - Present', organization: 'UC Berkeley Goldman School of Public Policy'}
+- {name: Full Stack Developer Intern, icon: 'icon-1.png', date: 'Jun 2019 - Aug 2019', organization: 'Block.One'}
 
 
 #-------------------------------
