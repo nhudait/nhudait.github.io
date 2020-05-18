@@ -9,8 +9,9 @@ address: 130 Blum Hall, Berkeley, CA 94704
 
 menu:
 - {name: About, link: '/about'}
-- {name: Courses, link: '/blog'}
+- {name: Courses, link: '/courses'}
 - {name: Portfolio, link: '/portfolio'}
+- {name: Resume, link: '/resume'}
 - {name: Contact, link: '/contact'}
 
 
