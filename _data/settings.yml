@@ -1,7 +1,7 @@
 #-------------------------------
 # General Site Settings
 
-title: Neha Hudait Portfolio Site
+title: Neha Hudait Personal Site
 logo: logo.png
 email: nhudait@berkeley.edu
 phone: 540 641 6840
@@ -35,10 +35,10 @@ hero:
 
 
 social:
-- {icon: "ti-linkedin", link: "https://www.linkedin.com/in/nehahudait/"}
-- {icon: "ti-facebook", link: "https://www.facebook.com/nehahudait"}
-- {icon: "ti-instagram", link: "https://www.instagram.com/nehahudz"}
-- {icon: "ti-twitter", link: "https://www.twitter.com/nehahudz"}
+- {id: "twitter", link: "https://www.twitter.com/nehahudz"}
+- {id: "facebook-f", link: "https://www.facebook.com/nehahudait"}
+- {id: "instagram", link: "https://www.instagram.com/nehahudz"}
+- {id: "linkedin", link: "https://www.linkedin.com/in/nehahudait/"}
 
 
 #-------------------------------
@@ -71,17 +71,17 @@ work-process:
 
 # My Team Section
 team:
-  - title : "Jack Schenziwe"
+  - title : "The (IEEE) Future is Female"
     image : "assets/images/team/member-1.png"
-    designation : "Project Manager"
+    designation : "March 2020"
 
-  - title : "Julias Carlie"
+  - title : "Saluti Al Fine Settimana!"
     image : "assets/images/team/member-2.png"
-    designation : "Web Developer"
+    designation : "October 2019"
 
-  - title : "John Doe"
+  - title : "Roommate Bonding"
     image : "assets/images/team/member-3.png"
-    designation : "Designer"
+    designation : "December 2019"
 
 
 #-------------------------------
