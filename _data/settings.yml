@@ -59,15 +59,15 @@ blurb-btn-name: Learn More
 work-process:
   - title : "Healthcare"
     icon : "assets/images/icons/health.png"
-    content : "I am passionate about applying my skills to the healthcare sector.  My experience with UCSF allows me to explore healthcare on a deeper level"
+    content : "Healthcare has always been a hub of technology motivated by the passion to help others. My project 'Koalaty' coupled with my research in breast cancer image augmentation and experience with UCSF allows me to create and explore the intersection between emerging technologies and patients"
 
   - title : "Education"
     icon : "assets/images/icons/book.png"
-    content : "My project, Learnability, allows me to help bring equity to school districts in my area."
+    content : "The transition between my small hometown to the Bay Area has shown me the stark differences between the quality of education between different geographical and socio-economic areas, and motivates me to do better. My project 'Learnability' aims to bring equity to school districts in my area in the fields of math and writing"
 
   - title : "Sustainable Energy"
     icon : "assets/images/icons/earth.png"
-    content : "Sustainable energy and environmental justice has always fascinated me. I have been working on solar cells since I was 16."
+    content : "Sustainable energy and environmental justice are two emerging areas that are brought to light by the ever-growing climate emergency. Since I was 16, I have been reserching to bring sustianabile energy, more specifically low-cost high-efficiency photovoltaic technology, to low income areas."
 
 
 # My Team Section
@@ -127,7 +127,7 @@ services:
     name: Koalaty,
     icon: ti-home,
     description: 'A non-invasive vitamin and mineral deficiency sensor and app for breastmilk to help new moms monitor the health of their newborns. New moms can also chat with a doctor in real-time through the app.',
-    active: # Add true to select section
+    active:  #add True to seele
   }
 - {
     name: DC-GANs for Breast Cancer Augmentation,
@@ -139,7 +139,7 @@ services:
     name: Learnability,
     icon: ti-pencil-alt,
     description: 'Developed machine learning application to help K-3 students with disabilities (autism, ADHD, down syndrome) learn at a similar pace to their peers',
-    active: # Add true to select section
+    active:  # Add true to select section
   }
 
 
@@ -168,16 +168,20 @@ portfolio-home-items:
 # Portfolio Page
 portfolio-label:
 - {
-    title : "UI/UX Design",
-    type : "design"
+    title : "Computer Science",
+    type : "computer"
   }
 - {
-    title : "BRANDING",
-    type : "branding"
+    title : "Business Administration",
+    type : "business"
   }
 - {
-    title : "ILLUSTRATION",
-    type : "illustration"
+    title : "Electrical Engineering",
+    type : "electrical"
+  }
+- {
+    title : "Other",
+    type : "other"
   }
 
 portfolio-items:
