@@ -47,7 +47,7 @@ social:
 
 # About Section
 blurb:
-  Hello! Welcome to my website. I am a Junior at the University of California, Berkeley. I am currently studying <b> Electrical Engineering & Computer Science </b> and <b> Business Administration </b> through the Management, Entrepreneurship, and Technology (M.E.T.) Program. I am passionate about bridging the gap between technology and accessibility. Please feel free to take a look around my website and contact me at nhudait@berkeley.edu
+  Hello! Welcome to my website. I am a Junior at the University of California, Berkeley. I am currently studying <b> Electrical Engineering & Computer Science </b> and <b> Business Administration </b> through the Management, Entrepreneurship, and Technology (M.E.T.) Program. I am passionate about bridging the gap between technology and accessibility. Please feel free to take a look around my website and contact me at <a href="mailto:nhudait@berkeley.edu">nhudait@berkeley.edu</a>
 
 blurb-btn-link: '/about'
 blurb-btn-name: Learn More
