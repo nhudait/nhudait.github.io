@@ -9,8 +9,8 @@ address: 130 Blum Hall, Berkeley, CA 94704
 
 menu:
 - {name: About, link: '/about'}
-# - {name: Courses, link: '/courses'}
-# - {name: Portfolio, link: '/portfolio'}
+#- {name: Courses, link: '/course'}
+- {name: Courses, link: '/portfolio'}
 - {name: Resume, link: '/resume'}
 - {name: Contact, link: '/contact'}
 
@@ -32,7 +32,6 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 
 hero:
   hero-title: Hi! I’m <br> Neha Hudait <br>
-  #<script src="js/titletyping.js"></script>
 
 
 social:
@@ -188,51 +187,27 @@ portfolio-items:
   - image : "assets/images/portfolio/item-1.png"
     url: "#"
     portfolio-type:
-     - type: "design"
-     - type: "illustration"
+     - type: "computer"
 
   - image : "assets/images/portfolio/item-2.png"
     url: "#"
     portfolio-type:
-      - type: "branding"
+      - type: "computer"
 
   - image : "assets/images/portfolio/item-3.png"
     url: "#"
     portfolio-type:
-      - type: "illustration"
+      - type: "computer"
 
-  - image : "assets/images/portfolio/item-6.png"
+  - image : "assets/images/portfolio/item-4.png"
     url: "#"
     portfolio-type:
-      - type: "design"
-      - type: "branding"
-
-  - image : "assets/images/portfolio/item-8.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
+      - type: "business"
 
   - image : "assets/images/portfolio/item-5.png"
     url: "#"
     portfolio-type:
-      - type: "design"
-
-  - image : "assets/images/portfolio/item-1.png"
-    url: "#"
-    portfolio-type:
-      - type: "branding"
-
-  - image : "assets/images/portfolio/item-3.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      - type: "illustration"
-      - type: "branding"
-
-  - image : "assets/images/portfolio/item-7.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
+      - type: "business"
 
 
 #-------------------------------
