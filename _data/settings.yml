@@ -143,19 +143,19 @@ services:
 # Portfolio Home Section
 portfolio-home-items:
   - image : "assets/images/portfolio/item-1.png"
-    url: "#"
+    url: "CS 61B"
 
   - image : "assets/images/portfolio/item-2.png"
-    url: "#"
+    url: "CS 170"
 
   - image : "assets/images/portfolio/item-3.png"
-    url: "#"
+    url: "CS 61C"
 
   - image : "assets/images/portfolio/item-4.png"
-    url: "#"
+    url: "UGBA 196"
 
   - image : "assets/images/portfolio/item-5.png"
-    url: "#"
+    url: "DATA 196"
 
 
 # Portfolio Page
@@ -179,72 +179,72 @@ portfolio-label:
 
 portfolio-items:
   - image : "assets/images/portfolio/item-1.png"
-    url: "#"
+    url: "CS 61B"
     portfolio-type:
      - type: "computer"
 
   - image : "assets/images/portfolio/item-2.png"
-    url: "#"
+    url: "CS 170"
     portfolio-type:
       - type: "computer"
 
   - image : "assets/images/portfolio/item-3.png"
-    url: "#"
+    url: "CS 61C"
     portfolio-type:
       - type: "computer"
 
   - image : "assets/images/portfolio/item-4.png"
-    url: "#"
+    url: "UGBA 196"
     portfolio-type:
       - type: "business"
 
   - image : "assets/images/portfolio/item-5.png"
-    url: "#"
+    url: "DATA 198"
     portfolio-type:
       - type: "business"
 
   - image : "assets/images/portfolio/item-6.png"
-    url: "#"
+    url: "GPP 115"
     portfolio-type:
       - type: "other"
 
   - image : "assets/images/portfolio/item-7.png"
-    url: "#"
+    url: "UGBA 101B"
     portfolio-type:
       - type: "business"
 
   - image : "assets/images/portfolio/item-8.png"
-    url: "#"
+    url: "ECON 1"
     portfolio-type:
       - type: "business"
 
   - image : "assets/images/portfolio/item-9.png"
-    url: "#"
+    url: "UGBA 10"
     portfolio-type:
       - type: "business"
 
   - image : "assets/images/portfolio/item-10.png"
-    url: "#"
+    url: "EE 16A"
     portfolio-type:
       - type: "electrical"
 
   - image : "assets/images/portfolio/item-11.png"
-    url: "#"
+    url: "EE 16B"
     portfolio-type:
       - type: "electrical"
 
   - image : "assets/images/portfolio/item-12.png"
-    url: "#"
+    url: "CS 195"
     portfolio-type:
       - type: "computer"
 
   - image : "assets/images/portfolio/item-13.png"
-    url: "#"
+    url: "STAT 21"
     portfolio-type:
       - type: "business"
 
   - image : "assets/images/portfolio/item-14.png"
-    url: "#"
+    url: "CS 70"
     portfolio-type:
       - type: "computer"
 
