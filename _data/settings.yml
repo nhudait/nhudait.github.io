@@ -22,13 +22,7 @@ google-analytics: UA-161494947-1
 
 
 #-------------------------------
-# Comment Section (Disqus)
-
-disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
-
-
-#-------------------------------
-# Hero Section
+# Social Media
 
 hero:
   hero-title: Hi! I’m <br> Neha Hudait <br>
@@ -54,7 +48,7 @@ blurb-btn-name: Learn More
 
 # About Page
 
-# Work Process Section
+# Areas of Impact
 work-process:
   - title : "Healthcare"
     icon : "assets/images/icons/health.png"
@@ -69,7 +63,7 @@ work-process:
     content : "Sustainable energy and environmental justice are two emerging areas that are brought to light by the ever-growing climate emergency. Since I was 16, I have been reserching to bring sustianabile energy, more specifically low-cost high-efficiency photovoltaic technology, to low income areas."
 
 
-# My Team Section
+# Snapshots of my Life
 team:
   - title : "The (IEEE) Future is Female"
     image : "assets/images/team/member-1.png"
