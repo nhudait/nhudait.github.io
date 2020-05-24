@@ -147,17 +147,18 @@ portfolio-home-items:
   - image : "assets/images/portfolio/2.png"
     url: "CS 170"
 
-  - image : "assets/images/portfolio/3.png"
-    url: "CS 61C"
+  - image : "assets/images/portfolio/14.png"
+    url: "CS 188"
+
+  - image : "assets/images/portfolio/21.png"
+    url: "DATA 100"
 
   - image : "assets/images/portfolio/4.png"
     url: "UGBA 196"
 
-  - image : "assets/images/portfolio/17.png"
+  - image : "assets/images/portfolio/20.png"
     url: "EECS 106A"
 
-  - image : "assets/images/portfolio/18.png"
-    url: "DATA 100"
 
 
 # Portfolio Page
@@ -180,6 +181,7 @@ portfolio-label:
   }
 
 portfolio-items:
+  #CS Courses
   - image : "assets/images/portfolio/1.png"
     url: "CS 61B"
     portfolio-type:
@@ -188,88 +190,125 @@ portfolio-items:
   - image : "assets/images/portfolio/2.png"
     url: "CS 170"
     portfolio-type:
-      - type: "computer"
+     - type: "computer"
+
+  - image : "assets/images/portfolio/14.png"
+    url: "CS 188"
+    portfolio-type:
+     - type: "computer"
+
+  - image : "assets/images/portfolio/21.png"
+    url: "DATA 100"
+    portfolio-type:
+     - type: "computer"
 
   - image : "assets/images/portfolio/3.png"
     url: "CS 61C"
     portfolio-type:
-      - type: "computer"
+     - type: "computer"
 
+  - image : "assets/images/portfolio/13.png"
+    url: "CS 195"
+    portfolio-type:
+     - type: "computer"
+
+  - image : "assets/images/portfolio/15.png"
+    url: "CS 61A"
+    portfolio-type:
+     - type: "computer"
+
+  - image : "assets/images/portfolio/17.png"
+    url: "CS 70"
+    portfolio-type:
+     - type: "computer"
+
+  #Business Courses
   - image : "assets/images/portfolio/4.png"
     url: "UGBA 196"
     portfolio-type:
-      - type: "business"
+     - type: "business"
 
-  - image : "assets/images/portfolio/17.png"
-    url: "EECS 106A"
+  - image : "assets/images/portfolio/24.png"
+    url: "UGBA 192T"
     portfolio-type:
-      - type: "computer"
+     - type: "business"
 
-  - image : "assets/images/portfolio/6.png"
-    url: "GPP 115"
+  - image : "assets/images/portfolio/19.png"
+    url: "UGBA 100"
     portfolio-type:
-      - type: "other"
+     - type: "business"
 
   - image : "assets/images/portfolio/7.png"
     url: "UGBA 101B"
     portfolio-type:
-      - type: "business"
+     - type: "business"
 
   - image : "assets/images/portfolio/8.png"
-    url: "ECON 1"
+    url: "UGBA 101A"
     portfolio-type:
-      - type: "business"
+     - type: "business"
 
   - image : "assets/images/portfolio/9.png"
-    url: "UGBA 10"
+    url: "ECON 1"
     portfolio-type:
-      - type: "business"
+     - type: "business"
 
   - image : "assets/images/portfolio/10.png"
-    url: "EE 16A"
+    url: "UGBA 10"
     portfolio-type:
-      - type: "electrical"
-
-  - image : "assets/images/portfolio/11.png"
-    url: "EE 16B"
-    portfolio-type:
-      - type: "electrical"
-
-  - image : "assets/images/portfolio/12.png"
-    url: "CS 195"
-    portfolio-type:
-      - type: "computer"
-
-  - image : "assets/images/portfolio/13.png"
-    url: "STAT 21"
-    portfolio-type:
-      - type: "business"
-
-  - image : "assets/images/portfolio/14.png"
-    url: "CS 70"
-    portfolio-type:
-      - type: "computer"
-
-  - image : "assets/images/portfolio/15.png"
-    url: "UGBA 102A"
-    portfolio-type:
-      - type: "business"
+     - type: "business"
 
   - image : "assets/images/portfolio/16.png"
-    url: "UGBA 100"
+    url: "STAT 21"
     portfolio-type:
-      - type: "business"
-
-  - image : "assets/images/portfolio/5.png"
-    url: "DATA 198"
-    portfolio-type:
-      - type: "other"
+     - type: "business"
 
   - image : "assets/images/portfolio/18.png"
-    url: "DATA 198"
+    url: "UGBA 102A"
     portfolio-type:
-      - type: "computer"
+     - type: "business"
 
+  - image : "assets/images/portfolio/24.png"
+    url: "UGBA 107"
+    portfolio-type:
+     - type: "business"
+
+  #Electrical Engineering
+  - image : "assets/images/portfolio/20.png"
+    url: "EECS 106A"
+    portfolio-type:
+     - type: "electrical"
+
+  - image : "assets/images/portfolio/11.png"
+    url: "EE 16A"
+    portfolio-type:
+     - type: "electrical"
+
+  - image : "assets/images/portfolio/12.png"
+    url: "EE 16B"
+    portfolio-type:
+     - type: "electrical"
+
+  #Other
+  - image : "assets/images/portfolio/5.png"
+    url: "DATA 196"
+    portfolio-type:
+     - type: "other"
+
+  - image : "assets/images/portfolio/6.png"
+    url: "GPP 115"
+    portfolio-type:
+     - type: "other"
+
+  - image : "assets/images/portfolio/22.png"
+    url: "PHYSICS 7AB"
+    portfolio-type:
+     - type: "other"
+
+  - image : "assets/images/portfolio/23.png"
+    url: "MATH 53"
+    portfolio-type:
+     - type: "other"
 #-------------------------------
 # Testimonials Section
 
@@ -297,80 +336,7 @@ client-slider-items:
   - logo: "assets/images/clients-logo/1.png"
     url: "#"
 
-  - logo: "assets/images/clients-logo/2.png"
-    url: "#"
 
-  - logo: "assets/images/clients-logo/3.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/4.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/5.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/6.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/7.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/8.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/9.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/10.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/11.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/12.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/13.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/1.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/2.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/3.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/4.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/5.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/6.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/7.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/8.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/9.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/10.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/11.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/12.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/13.png"
-    url: "#"
 
 #-------------------------------
 # Contact Section
