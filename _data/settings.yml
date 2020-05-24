@@ -203,7 +203,7 @@ portfolio-items:
   - image : "assets/images/portfolio/17.png"
     url: "EECS 106A"
     portfolio-type:
-      - type: "business"
+      - type: "computer"
 
   - image : "assets/images/portfolio/6.png"
     url: "GPP 115"
