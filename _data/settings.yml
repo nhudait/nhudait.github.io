@@ -141,19 +141,19 @@ services:
 
 # Portfolio Home Section
 portfolio-home-items:
-  - image : "assets/images/portfolio/item-1.png"
+  - image : "assets/images/portfolio/test-item.png"
     url: "CS 61B"
 
-  - image : "assets/images/portfolio/item-2.png"
+  - image : "assets/images/portfolio/test-item.png"
     url: "CS 170"
 
-  - image : "assets/images/portfolio/item-3.png"
+  - image : "assets/images/portfolio/test-item.png"
     url: "CS 61C"
 
-  - image : "assets/images/portfolio/item-4.png"
+  - image : "assets/images/portfolio/test-item.png"
     url: "UGBA 196"
 
-  - image : "assets/images/portfolio/item-5.png"
+  - image : "assets/images/portfolio/test-item.png"
     url: "DATA 196"
 
 
@@ -177,72 +177,72 @@ portfolio-label:
   }
 
 portfolio-items:
-  - image : "assets/images/portfolio/item-1.png"
+  - image : "assets/images/portfolio/test-item.png"
     url: "CS 61B"
     portfolio-type:
      - type: "computer"
 
-  - image : "assets/images/portfolio/item-2.png"
+  - image : "assets/images/portfolio/test-item.png"
     url: "CS 170"
     portfolio-type:
       - type: "computer"
 
-  - image : "assets/images/portfolio/item-3.png"
+  - image : "assets/images/portfolio/test-item.png"
     url: "CS 61C"
     portfolio-type:
       - type: "computer"
 
-  - image : "assets/images/portfolio/item-4.png"
+  - image : "assets/images/portfolio/test-item.png"
     url: "UGBA 196"
     portfolio-type:
       - type: "business"
 
-  - image : "assets/images/portfolio/item-5.png"
+  - image : "assets/images/portfolio/test-item.png"
     url: "DATA 198"
     portfolio-type:
       - type: "business"
 
-  - image : "assets/images/portfolio/item-6.png"
+  - image : "assets/images/portfolio/test-item.png"
     url: "GPP 115"
     portfolio-type:
       - type: "other"
 
-  - image : "assets/images/portfolio/item-7.png"
+  - image : "assets/images/portfolio/test-item.png"
     url: "UGBA 101B"
     portfolio-type:
       - type: "business"
 
-  - image : "assets/images/portfolio/item-8.png"
+  - image : "assets/images/portfolio/test-item.png"
     url: "ECON 1"
     portfolio-type:
       - type: "business"
 
-  - image : "assets/images/portfolio/item-9.png"
+  - image : "assets/images/portfolio/test-item.png"
     url: "UGBA 10"
     portfolio-type:
       - type: "business"
 
-  - image : "assets/images/portfolio/item-10.png"
+  - image : "assets/images/portfolio/test-item.png"
     url: "EE 16A"
     portfolio-type:
       - type: "electrical"
 
-  - image : "assets/images/portfolio/item-11.png"
+  - image : "assets/images/portfolio/test-item.png"
     url: "EE 16B"
     portfolio-type:
       - type: "electrical"
 
-  - image : "assets/images/portfolio/item-12.png"
+  - image : "assets/images/portfolio/test-item.png"
     url: "CS 195"
     portfolio-type:
       - type: "computer"
 
-  - image : "assets/images/portfolio/item-13.png"
+  - image : "assets/images/portfolio/test-item.png"
     url: "STAT 21"
     portfolio-type:
       - type: "business"
 
-  - image : "assets/images/portfolio/item-14.png"
+  - image : "assets/images/portfolio/test-item.png"
     url: "CS 70"
     portfolio-type:
       - type: "computer"
