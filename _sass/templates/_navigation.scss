@@ -2,13 +2,6 @@
   transition: .3s ease;
   &.nav-bg {
     background-color: $primary-color;
-    padding: 15px 0px;
-    @include desktop {
-      padding: 15px 20px;
-    }
-  }
-  @include desktop {
-    background: $primary-color;
   }
 }
 
