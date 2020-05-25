@@ -77,6 +77,10 @@ team:
     image : "assets/images/team/member-3.png"
     designation : "December 2019"
 
+  - title : "Lower Boi"
+    image : "assets/images/team/member-.png"
+    designation : "February 2020"
+
 #-------------------------------
 # Skills Section
 
