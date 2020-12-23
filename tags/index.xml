@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Neha Hudait</title>
-    <link>nehahudait.com/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Neha Hudait</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="nehahudait.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
