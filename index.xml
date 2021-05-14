@@ -7,22 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://nhudait.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Software Engineering Intern | Facebook</title>
+      <link>https://nhudait.github.io/facebook/</link>
+      <pubDate>Sun, 15 Oct 2017 03:29:08 -0700</pubDate>
+      
+      <guid>https://nhudait.github.io/facebook/</guid>
+      <description>Coming Soon! </description>
+    </item>
+    
+    <item>
       <title>Software Engineering Intern | NVIDIA</title>
       <link>https://nhudait.github.io/nvidia/</link>
       <pubDate>Sun, 15 Oct 2017 03:29:08 -0700</pubDate>
       
       <guid>https://nhudait.github.io/nvidia/</guid>
-      <description>Coming Soon! </description>
+      <description>Overview During my internship at NVIDIA, I worked on the Product Security Team to develop a part of Morpheus, a cloud-native cybersecurity framework which uses machine learning to identify, capture, and take action on threats and anomalies that were previously impossible to identify including leaks of unencrypted sensitive data, phishing attacks, and malware. I specifically worked on the user-facing side of this by creating an internal-facing full-stack portal to allow NVIDIA engineers to analyze different security logs from sources like AWS, GCP, Kafka, etc.</description>
     </item>
     
     <item>
-      <title>Unit Supervisor | Student Technology Services</title>
+      <title>Student Helpdesk Supervisor | Student Technology Services</title>
       <link>https://nhudait.github.io/sts/</link>
       <pubDate>Sun, 15 Oct 2017 03:29:08 -0700</pubDate>
       
       <guid>https://nhudait.github.io/sts/</guid>
-      <description>Overview Through Student Technology Services, I am currently a Unit Supervisor where I oversee a team of 5-8 Student Technology Consultants (STCs) who provide frontline technical support for over 40,000 students. I am also responsible for maintaining Unit 1&amp;rsquo;s Academic Center hardware, software, and printing services.
-Previously, I was a Student Technology Consultant where I continually assisted the student body in troubleshooting their software and hardware related issues. Additionally, I participated in trainings and professional development.</description>
+      <description>Overview Through Student Technology Services, I am currently a Student Helpdesk Supervisor where I oversee a team of 5-8 Student Technology Consultants (STCs) who provide frontline technical support for over 40,000 students. I am also responsible for creating training documentation for STCs during Summer, Fall, and Spring cohort training.
+Previously, I was a Student Technology Consultant where I continually assisted the student body in troubleshooting their software and hardware related issues.</description>
     </item>
     
     <item>
@@ -41,7 +50,7 @@ As External Vice President, I primarily work with the external facing committees
       <pubDate>Sun, 15 Oct 2017 03:29:08 -0700</pubDate>
       
       <guid>https://nhudait.github.io/data/</guid>
-      <description>Coming Soon! </description>
+      <description>Overview I worked with the Infrastructure Team at the Division of Data Science at UC Berkeley to design and develop new features and roadmaps for Otter-Grader, a lightweight, modular open-source autograder. Prior to coming into my role, the team was comprised of 4 developers and a team lead who acted as a psuedo PM. However, becausse of the vast growth of the number of adopters of Otter-Grader, I was brought onboard to analyze key takeaways and to design new features to iterate on future versions of Otter.</description>
     </item>
     
     <item>
@@ -79,17 +88,6 @@ My work was primarily centered around improving the chatbot&amp;rsquo;s function
       <pubDate>Sun, 15 Oct 2017 03:29:08 -0700</pubDate>
       
       <guid>https://nhudait.github.io/ucsf/</guid>
-      <description>Overview Coming Soon!
-Workflow Coming Soon!
-Takeaways Coming Soon!</description>
-    </item>
-    
-    <item>
-      <title>Data Analyst | Goldman School of Public Policy</title>
-      <link>https://nhudait.github.io/environment/</link>
-      <pubDate>Sun, 15 Oct 2017 03:29:08 -0700</pubDate>
-      
-      <guid>https://nhudait.github.io/environment/</guid>
       <description>Overview Coming Soon!
 Workflow Coming Soon!
 Takeaways Coming Soon!</description>

@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://nhudait.github.io/facebook/</loc>
+    <lastmod>2017-10-15T03:29:08-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nhudait.github.io/nvidia/</loc>
     <lastmod>2017-10-15T03:29:08-07:00</lastmod>
   </url>
@@ -39,11 +44,6 @@
   
   <url>
     <loc>https://nhudait.github.io/ucsf/</loc>
-    <lastmod>2017-10-15T03:29:08-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nhudait.github.io/environment/</loc>
     <lastmod>2017-10-15T03:29:08-07:00</lastmod>
   </url>
   
