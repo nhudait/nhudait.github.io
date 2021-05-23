@@ -12,7 +12,7 @@
       <pubDate>Sun, 15 Oct 2017 03:29:08 -0700</pubDate>
       
       <guid>https://nhudait.github.io/facebook/</guid>
-      <description>Coming Soon! </description>
+      <description>Overview During my internship at Facebook, I will be building an machine learning system and model to quantify how well certain detection algorithms work in providing all instances of when a user&amp;rsquo;s data is found on multiple different Facebook products but the user has not explictly given permission to link these products to a single account. The goal is to eliminate all instances of when a user did not explicitly give permission.</description>
     </item>
     
     <item>
@@ -88,9 +88,7 @@ My work was primarily centered around improving the chatbot&amp;rsquo;s function
       <pubDate>Sun, 15 Oct 2017 03:29:08 -0700</pubDate>
       
       <guid>https://nhudait.github.io/ucsf/</guid>
-      <description>Overview Coming Soon!
-Workflow Coming Soon!
-Takeaways Coming Soon!</description>
+      <description>Overview I worked with the Cardiovascular Department at the University of California San Francisco Medial Center to improve AI-enabled detection and preventuion techniques for cardiovacular disease. Currently, cardiovascular disease can be detected through different ultrasounds. However, there is a high turnaround time between completing the ultrasound, analyzing the video, and determining to what extent of severity the patient has cardiovascular dieases i.e. whether they were at risk, required medication, etc.</description>
     </item>
     
   </channel>
