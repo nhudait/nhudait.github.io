@@ -56,7 +56,7 @@ footer {
 }
 
 .sub-navigation {
-  max-width: 445px;
+  max-width: 800px;
   height: inherit;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -112,6 +112,12 @@ footer {
   #process-link {
     display: none !important;
   }
+  #courses-link {
+    display: none !important;
+  }  
+  #other-link {
+    display: none !important;
+  }
 }
 
 .logo:hover, .main-navigation-link:hover {
@@ -144,6 +150,30 @@ section {
 }
 
 .process {
+  max-width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.courses {
+  max-width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.other {
   max-width: 1000px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -273,6 +303,47 @@ section {
           justify-content: space-between;
 }
 
+.courses-item {
+  max-width: 300px;
+  padding-top: 20px;
+}
+
+.courses-item h3 {
+  margin-left: 15px;
+}
+
+.courses-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.other-item {
+  /* max-width: 300px; */
+  padding-top: 20px;
+}
+
+
+.other-item h3 {
+  margin-left: 15px;
+}
+
+.other-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .item-header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -302,12 +373,43 @@ section {
   letter-spacing: 0;
 }
 
+.courses-item p {
+  /* I collaborate with s: */
+  font-size: 16px;
+  color: #777777;
+  letter-spacing: 0;
+  line-height: 1.8em;
+}
+
+.courses-item h3 {
+  /* Discover: */
+  font-size: 28px;
+  color: #007380 !important;
+  letter-spacing: 0;
+}
+
+.other-item p {
+  /* I collaborate with s: */
+  font-size: 16px;
+  color: #777777;
+  letter-spacing: 0;
+  line-height: 1.8em;
+}
+
+.other-item h3 {
+  /* Discover: */
+  font-size: 28px;
+  color: #007380 !important;
+  letter-spacing: 0;
+}
+
 .case-studies-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+      flex-basis: 50%;
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
@@ -617,6 +719,12 @@ section {
   .process-item {
     max-width: 45%;
   }
+  .courses-item {
+    max-width: 45%;
+  }
+  .other-item {
+    max-width: 45%;
+  }
 }
 
 @media all and (max-width: 728px) {
@@ -631,6 +739,12 @@ section {
     font-size: 40px;
   }
   .process-item h3 {
+    font-size: 24px;
+  }
+  .other-item h3 {
+    font-size: 24px;
+  }
+  .courses-item h3 {
     font-size: 24px;
   }
   .subtitle {
@@ -649,6 +763,13 @@ section {
   .process-item {
     max-width: 100%;
   }
+  .courses-item {
+    max-width: 100%;
+  }
+  .other-item {
+    max-width: 100%;
+  }
+
 }
 
 .active {

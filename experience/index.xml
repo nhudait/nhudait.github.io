@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Neha Hudait</title>
-    <link>https://nhudait.github.io/</link>
-    <description>Recent content on Neha Hudait</description>
+    <title>Experiences on Neha Hudait</title>
+    <link>https://nhudait.github.io/experience/</link>
+    <description>Recent content in Experiences on Neha Hudait</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Oct 2017 03:29:08 -0700</lastBuildDate><atom:link href="https://nhudait.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title></title>
-      <link>https://nhudait.github.io/extracurriculars/ieee/</link>
-      <pubDate>Sun, 15 Oct 2017 03:29:08 -0700</pubDate>
-      
-      <guid>https://nhudait.github.io/extracurriculars/ieee/</guid>
-      <description>Overview IEEE has been one of the most influential organizations I have joined in college. I joined IEEE my freshman year as a Professional Development committee member where I planned professional development workshops for IEEE members. Flash forward, I became Professional Development committee director and now am External Vice President of the organization!
-As External Vice President, I primarily work with the external facing committees that affect IEEE&amp;rsquo;s image. More specifically, I primarily work with the website, industry relations, and outreach committees.</description>
-    </item>
-    
+    <lastBuildDate>Sun, 15 Oct 2017 03:29:08 -0700</lastBuildDate><atom:link href="https://nhudait.github.io/experience/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Technical Program Manager Intern | NVIDIA</title>
       <link>https://nhudait.github.io/experience/nvidiatpm/</link>
@@ -27,31 +17,12 @@ As External Vice President, I primarily work with the external facing committees
     </item>
     
     <item>
-      <title>Advisor &#43; Co-Founder | DataGood</title>
-      <link>https://nhudait.github.io/extracurriculars/datagood/</link>
-      <pubDate>Sun, 15 Oct 2017 03:29:08 -0700</pubDate>
-      
-      <guid>https://nhudait.github.io/extracurriculars/datagood/</guid>
-      <description>Overview DataGood @ Berkeley is the first student-run organization striving to increase the accessibility of data science tools to students on the Berkeley campus and organizations that maximize social impact. My roommate, Saumya, and I saw a need for more visibility for data science in impact-driven fields having explored the intersection of data science and health. We wanted to take our passions to create an organization dedicated to expanding data science knowledge beyond what was taught in introductory courses such as Data 8 and Data 100.</description>
-    </item>
-    
-    <item>
       <title>Software Engineering Intern | Meta</title>
       <link>https://nhudait.github.io/experience/facebook/</link>
       <pubDate>Sun, 15 Oct 2017 03:29:08 -0700</pubDate>
       
       <guid>https://nhudait.github.io/experience/facebook/</guid>
       <description>Overview During my internship at Facebook, I worked on the People Data Privacy team to design and develop a machine learning system and baseline model to detect 20,000 privacy violations with 99.4% accuracy. Facebook has several commitments to suspend the collection of device-related data collected on its services or third-party websites without the consent of users. PDP Privacy is part of a larger initiative to detect and prevent these privacy violations in an effort to improve overall privacy of Facebook&amp;rsquo;s Family of Apps.</description>
-    </item>
-    
-    <item>
-      <title>Student Helpdesk Supervisor | Student Technology Services</title>
-      <link>https://nhudait.github.io/extracurriculars/sts/</link>
-      <pubDate>Sun, 15 Oct 2017 03:29:08 -0700</pubDate>
-      
-      <guid>https://nhudait.github.io/extracurriculars/sts/</guid>
-      <description>Overview Through Student Technology Services, I am currently a Student Helpdesk Supervisor where I oversee a team of 5-8 Student Technology Consultants (STCs) who provide frontline technical support for over 40,000 students. I am also responsible for creating training documentation for STCs during Summer, Fall, and Spring cohort training.
-Previously, I was a Student Technology Consultant where I continually assisted the student body in troubleshooting their software and hardware related issues.</description>
     </item>
     
     <item>

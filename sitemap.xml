@@ -1,62 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>https://nhudait.github.io/facebook/</loc>
+    <loc>https://nhudait.github.io/extracurriculars/ieee/</loc>
     <lastmod>2017-10-15T03:29:08-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nhudait.github.io/nvidia/</loc>
+  </url><url>
+    <loc>https://nhudait.github.io/experience/nvidiatpm/</loc>
     <lastmod>2017-10-15T03:29:08-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nhudait.github.io/sts/</loc>
+  </url><url>
+    <loc>https://nhudait.github.io/extracurriculars/datagood/</loc>
     <lastmod>2017-10-15T03:29:08-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nhudait.github.io/ieee/</loc>
+  </url><url>
+    <loc>https://nhudait.github.io/experience/facebook/</loc>
     <lastmod>2017-10-15T03:29:08-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nhudait.github.io/data/</loc>
+  </url><url>
+    <loc>https://nhudait.github.io/extracurriculars/sts/</loc>
     <lastmod>2017-10-15T03:29:08-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nhudait.github.io/datagood/</loc>
+  </url><url>
+    <loc>https://nhudait.github.io/experience/nvidia/</loc>
     <lastmod>2017-10-15T03:29:08-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nhudait.github.io/sap/</loc>
+  </url><url>
+    <loc>https://nhudait.github.io/experience/girleffect/</loc>
     <lastmod>2017-10-15T03:29:08-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nhudait.github.io/girleffect/</loc>
+  </url><url>
+    <loc>https://nhudait.github.io/experience/data/</loc>
     <lastmod>2017-10-15T03:29:08-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nhudait.github.io/ucsf/</loc>
+  </url><url>
+    <loc>https://nhudait.github.io/experience/sap/</loc>
     <lastmod>2017-10-15T03:29:08-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nhudait.github.io/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://nhudait.github.io/experience/ucsf/</loc>
+    <lastmod>2017-10-15T03:29:08-07:00</lastmod>
+  </url><url>
+    <loc>https://nhudait.github.io/experience/</loc>
+    <lastmod>2017-10-15T03:29:08-07:00</lastmod>
+  </url><url>
+    <loc>https://nhudait.github.io/extracurriculars/</loc>
+    <lastmod>2017-10-15T03:29:08-07:00</lastmod>
+  </url><url>
     <loc>https://nhudait.github.io/</loc>
-  </url>
-  
-  <url>
+    <lastmod>2017-10-15T03:29:08-07:00</lastmod>
+  </url><url>
+    <loc>https://nhudait.github.io/categories/</loc>
+  </url><url>
     <loc>https://nhudait.github.io/tags/</loc>
   </url>
-  
 </urlset>
