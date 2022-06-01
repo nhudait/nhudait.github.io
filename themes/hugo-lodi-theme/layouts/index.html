@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body>
+        <div>
+            {{ if .Site.Params.nav.enable }}
+            {{ partial "nav.html" . }}
+            {{ end }}
+
+            {{ if .Site.Params.hero.enable }}
+            {{ partial "hero.html" . }}
+            {{ end }}
+
+            {{ if .Site.Params.case_studies.enable }}
+            {{ partial "case_studies.html" . }}
+            {{ end }}
+
+            {{ if .Site.Params.projects.enable }}
+            {{ partial "projects.html" . }}
+            {{ end }}
+
+            {{ if .Site.Params.process.enable }}
+            {{ partial "process.html" . }}
+            {{ end }}
+
+            {{ if .Site.Params.courses.enable }}
+            {{ partial "courses.html" . }}
+            {{ end }}
+
+            {{ if .Site.Params.other.enable }}
+            {{ partial "other.html" . }}
+            {{ end }}
+
+            <!-- Calendly badge widget begin -->
+            <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+            <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+            <script type="text/javascript">Calendly.initBadgeWidget({ url: 'https://calendly.com/hudait/meeting', text: 'Let\'s Chat', color: '#007380', textColor: '#ffffff', branding: true });</script>
+            <!-- Calendly badge widget end -->
+
+            {{ if .Site.Params.footer.enable }}
+            {{ partial "footer.html" . }}
+            {{ end }}
+        </div>
+
+        {{ partial "scripts.html" . }}
+
+    </body>
+</html>

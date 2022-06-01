@@ -1,0 +1,17 @@
+<section data-scroll-index="5">
+    <div class="other">
+        <div class="header" style="padding-top: 70px;">
+            <h1 class="title">{{ .Site.Params.Other.Title }}</h1>
+            <!-- <h2 class="subtitle">{{ .Site.Params.Other.Subtitle }}</h2> -->
+        </div>
+        <div class="other-wrapper">
+            {{ range $element := sort .Site.Data.other "weight" }}
+            <div class="other-item">
+                {{ range $paragraph := $element.items }}
+                <p>{{ $paragraph | markdownify }}</p>
+                {{ end }}
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>

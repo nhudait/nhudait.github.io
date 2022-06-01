@@ -1,0 +1,21 @@
+<section data-scroll-index="4">
+    <div class="courses">
+        <div class="header" style="padding-top: 70px;">
+            <h1 class="title">{{ .Site.Params.Courses.Title }}</h1>
+            <!-- <h2 class="subtitle">{{ .Site.Params.Courses.Subtitle }}</h2> -->
+        </div>
+        <div class="courses-wrapper">
+            {{ range $element := sort .Site.Data.courses "weight" }}
+            <div class="courses-item">
+                <figure class="item-header">
+                    <img width="25px" height="25px" src="svg/{{ $element.icon }}">
+                    <h3><a style="color: #007380">{{ $element.title }}</a></h3>
+                </figure>
+                {{ range $paragraph := $element.description }}
+                <p>{{ $paragraph | markdownify }}</p>
+                {{ end }}
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
