@@ -1,0 +1,12 @@
+weight: 1
+title: "Engineering"
+icon: "gear.svg"
+description: ["Machine Learning", 
+              "Artificial Intelligence",
+              "Data Engineering and Design", 
+              "Advanced Algorithms", 
+              "Principles and Techniques of Data Science", 
+              "Data Structures", 
+              "Machine Strutures", 
+              "Computer Architecture"]
+              

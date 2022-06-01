@@ -69,6 +69,7 @@ testimonial_author: "John Robert Palomo"
 # Testimonial subtitle, usually position of the testimonial author
 testimonial_subtitle: "Co-founder, Cope"
 
+date: {{ .Date }}
 draft: false
 
 # Write the content of your case study below the three dashed lines. You can use markdown and raw HTML.

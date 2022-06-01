@@ -1,0 +1,5 @@
+weight: 1
+title: "Trick Tweet"
+icon: "tweet.svg"
+description: "Created a language model which auto-generates tweets which sound like an inputed user"
+url: https://github.com/nhudait/trick-tweet
