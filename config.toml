@@ -1,12 +1,12 @@
-baseURL = "nhudait.github.io"
+baseURL = "https://nhudait.github.io/"
 languageCode = "en-us"
 title = "Neha Hudait"
 theme = "hugo-lodi-theme"
-googleAnalytics = "UA-XXXXXXXX-Y"
+publishDir = "public"
 
 [params]
     theme_color = "#3a7ca5"
-    description = "Portfolio of Neha Hudait"
+    description = "Neha Hudait Personal Website"
     description_photo = "portfolio.jpg"
     favicon = "favicon.png"
     logo = "logo.png"
@@ -20,10 +20,10 @@ googleAnalytics = "UA-XXXXXXXX-Y"
 [params.hero]
     enable = true
     avatar = "avatar.jpg"
-    subtitle = "Hi, I'm Neha, a Junior at UC Berkeley passionate about making technology more accessible."
-    hero_right = ["I'm pursuing a dual-degree in [Electrical Engineering & Computer Sciences](https://eecs.berkeley.edu/) and [Business Administration](https://haas.berkeley.edu/) through the [Management, Entrepreneurship, and Technology](https://met.berkeley.edu) (M.E.T.) Program.",  " I'm from Southwest Virginia and am passionate about bridging the gap between technology and accessibility. I've seen the impact that technological gentrification and as a result technological illteracy has on my community. As a result, I've dedicated much of my academic and professional career in exploring emerging technologies and how they can impact different use cases like my own community.", "Currently, I am a Software Engineering Intern at NVIDIA working on Cloud Security. Additionally, I am a Technical Product Manager for the Division of Data Science on their Infrastructure team. Previously, I was a Software Developer at Girl Effect and a Technical Product Management Intern at SAP.", "I have experience in the fields of software development, machine learning, data analytics, and product management. I'm always looking for new and exciting opportunities! Feel free to shoot me an email at nhudait@berkeley.edu or [schedule a time to meet.](https://calendly.com/hudait)" ]
+    subtitle = "Hi, I'm Neha, a recent UC Berkeley graduate passionate about making technology more accessible."
+    hero_right = ["I recently graduated UC Berkeley with a dual-degree in [Electrical Engineering & Computer Sciences](https://eecs.berkeley.edu/) and [Business Administration](https://haas.berkeley.edu/) through the [Management, Entrepreneurship, and Technology](https://met.berkeley.edu) (M.E.T.) Program.",  " I'm from Southwest Virginia and am passionate about bridging the gap between technology and accessibility. I've seen the impact that technological gentrification and technological illteracy has on my community. As a result, I've dedicated much of my academic and professional career in exploring emerging technologies and how they can impact different use cases like my own community.", "I have experience in the fields of product and program management, software development, machine learning, and data analytics which you can read about below! I'm always looking for new and exciting opportunities! Feel free to shoot me an email at nhudait@berkeley.edu or [schedule a time to meet.](https://calendly.com/hudait)" ]
 
-    resume = "Hudait_Resume.pdf"
+    resume = "resume.pdf"
 
 [params.process]
     enable = true
@@ -38,6 +38,16 @@ googleAnalytics = "UA-XXXXXXXX-Y"
 [params.projects]
     enable = true
     title = "Extracurriculars"
+    subtitle = "Test"
+
+[params.other]
+    enable = true
+    title = "Additional"
+    subtitle = "Test"
+
+[params.courses]
+    enable = false
+    title = "Courses"
     subtitle = "Test"
 
 [params.footer]
