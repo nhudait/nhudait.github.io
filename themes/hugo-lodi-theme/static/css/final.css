@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 * {
   box-sizing: border-box;
   text-rendering: optimizeLegibility;
@@ -7,10 +9,35 @@
 
 body {
   font-size: 16px;
-  font-family: Roboto;
+  font-family: 'Poppins', sans-serif; /* Apply Poppins font globally */
   margin: 0;
   padding: 0;
 }
+
+h1 {
+  font-family: 'Poppins', sans-serif; /* Apply Poppins font */
+  background: linear-gradient(90deg, #78ba0c, #0f8766); /* Gradient */
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  display: inline-block;
+  padding: 0.2em 0; /* Slight padding to avoid clipping */
+  line-height: 1.2; /* Enough space between lines */
+  margin: 0;
+  vertical-align: middle;
+  height: auto; /* Allow height to be flexible */
+  min-height: 1em; /* Ensure at least the height of one line of text */
+  overflow: visible; /* Prevent clipping */
+  white-space: nowrap; /* Ensure text doesn't break onto new lines */
+}
+
+
+
+
+
+
+
 
 a {
   text-decoration: none;
@@ -67,7 +94,7 @@ footer {
   position: absolute;
   left: 90px;
   top: 3px;
-  color: #777777;
+  color: #000000;
 }
 
 @media all and (max-width: 400px) {
@@ -230,7 +257,7 @@ section {
 .hero-right p {
   /* color: #929292; */
   font-size: 16px;
-  color: #777777;
+  color: #666;
   letter-spacing: 0;
   /* line-height: 25px; */
   line-height: 1.8em;
@@ -261,7 +288,7 @@ section {
   margin-top: 20px;
   background: #007380;
   /* Download Resume: */
-  font-family: Roboto;
+  font-family: 'Poppins', sans-serif;
   font-size: 15px;
   /*padding: 15px 50px;*/
   color: #FFFFFF;
@@ -274,7 +301,7 @@ section {
 
 .title {
   /* My Process: */
-  font-family: Roboto;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   font-size: 44px;
   color: #000000;
@@ -361,7 +388,7 @@ section {
 .process-item p {
   /* I collaborate with s: */
   font-size: 16px;
-  color: #777777;
+  color: #000000;
   letter-spacing: 0;
   line-height: 1.8em;
 }
@@ -376,7 +403,7 @@ section {
 .courses-item p {
   /* I collaborate with s: */
   font-size: 16px;
-  color: #777777;
+  color: #000000;
   letter-spacing: 0;
   line-height: 1.8em;
 }
@@ -391,7 +418,7 @@ section {
 .other-item p {
   /* I collaborate with s: */
   font-size: 16px;
-  color: #777777;
+  color: #000000;
   letter-spacing: 0;
   line-height: 1.8em;
 }
@@ -476,14 +503,14 @@ section {
 
 .case-study-item p {
   font-size: 16px;
-  color: #777777;
+  color: #000000;
   letter-spacing: 0;
   line-height: 1.8em;
 }
 
 .activity-item p {
   font-size: 16px;
-  color: #777777;
+  color: #000000;
   letter-spacing: 0;
   line-height: 1.8em;
 }
@@ -566,7 +593,7 @@ section {
 
 .main-case-study .subtitle {
   /* Mobile App Design: */
-  font-family: Roboto;
+  font-family: 'Poppins', sans-serif;
   font-weight: bold;
   font-size: 22px;
   color: #007380;
@@ -575,7 +602,7 @@ section {
 
 .main-case-study .summary {
   /* The objective of thi: */
-  font-family: Roboto;
+  font-family: 'Poppins', sans-serif;
   font-weight: 300;
   font-size: 24px;
   color: #000000;
@@ -653,7 +680,7 @@ section {
 
 .content-case-study p {
   /* Each member of our t: */
-  font-family: Roboto;
+  font-family: 'Poppins', sans-serif;
   font-size: 19px;
   color: #676767;
   letter-spacing: 0;
@@ -777,3 +804,227 @@ section {
   transition: 0.2s ease-in-out;
   border-bottom: 3px solid #3a7ca5;
 }
+
+.introduction-text h1 {
+  font-size: 42px; /* Same font size */
+  font-weight: bold;
+  background: linear-gradient(90deg, #78ba0c, #0f8766); /* Apply specified colors */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+
+.download-resume {
+  background: linear-gradient(90deg, #78ba0c, #0f8766); /* Apply the same gradient */
+  border: none; /* Remove default borders */
+  color: white; /* Ensure the text inside the button is visible */
+  padding: 10px 20px; /* Adjust padding to your preference */
+  border-radius: 5px; /* Optional: Add rounded corners */
+  text-decoration: none; /* Remove the underline from the link */
+  display: inline-block; /* Ensure it behaves like a button */
+  cursor: pointer; /* Change the cursor to pointer */
+  transition: background 0.3s ease; /* Add a transition effect on hover */
+}
+
+.download-resume:hover {
+  background: linear-gradient(90deg, #0f8766, #78ba0c); /* Reverse the gradient on hover */
+}
+
+/* Flexbox container to align logo and links */
+.nav-container {
+  display: flex;
+  align-items: center; /* Vertically center both the logo and links */
+  justify-content: space-between; /* Space between logo and links */
+  padding-top: 20px; /* Adjust padding at the top */
+  padding-bottom: 20px; /* Adjust padding at the bottom */
+}
+
+/* Adjust the logo size */
+.logo {
+  height: 60px; /* Adjust the height of the logo */
+}
+
+/* Container for the links */
+.links-container {
+  display: flex;
+  align-items: center; /* Align links vertically in the center */
+  margin-left: auto; /* Push the links to the right */
+}
+
+/* Styling for the navigation links */
+.main-navigation-link {
+  margin-left: 20px; /* Add space between the links */
+  color: #0f8766;
+  font-weight: bold;
+  text-decoration: none; /* Remove underline */
+  transition: color 0.5s ease;
+}
+
+/* Hover effect for the navigation links */
+.main-navigation-link:hover {
+  color: #78ba0c; /* Change color on hover */
+}
+
+.avatar-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100%; /* Ensure the container takes up full height */
+  width: 100%; /* Ensure the container takes up full width */
+}
+
+.avatar2 {
+  width: 60%; /* Set a fixed width for the image to make it smaller */
+  height: 60%; /* Set a fixed height to match the width */
+  border-radius: 50%; /* Make the image circular */
+  object-fit: cover; /* Ensure the image fits inside the circular shape */
+  max-width: 100%; /* Ensure responsiveness */
+  max-height: 100%; /* Ensure responsiveness */
+}
+
+
+/* Container for the resume or other content entries */
+.other-content {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+  position: relative;
+  min-height: 100vh; /* Ensure the container has sufficient height */
+}
+
+/* The vertical line */
+.other-content::before {
+  content: '';
+  position: absolute;
+  left: 25px;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background-color: #777777; /* Set the line color */
+  z-index: 1; /* Ensure the line appears behind content */
+}
+
+/* Grid layout for the content entries */
+.row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2; /* Ensure the content appears above the line */
+}
+
+/* Box for each entry (resume item or other content) */
+.box {
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  margin-left: 50px; /* Move the content to the right of the line */
+  z-index: 3;
+}
+
+/* Circle at the start of each entry */
+.box::before {
+  content: '';
+  position: absolute;
+  left: -30px; /* Position to the left, aligned with the line */
+  top: 20px;
+  width: 12px;
+  height: 12px;
+  background-color: #0f8766; /* Circle color */
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 0 0 3px #0f8766;
+  z-index: 3; /* Ensure circles appear above the line */
+}
+
+/* Hover effect for each box */
+.box:hover {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  border-color: #0f8766;
+}
+
+/* Content inside each entry */
+.content {
+  text-align: left;
+}
+
+/* Styling for the year or any important date text */
+.year {
+  font-size: 1.2em;
+  color: #0f8766;
+  font-weight: bold;
+}
+
+/* Styling for the title of each content entry */
+h3 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Styling for the description or details of each entry */
+p, li, ul {
+  font-size: 1em;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .row {
+      grid-template-columns: 1fr;
+  }
+  
+  .box {
+      margin-left: 20px;
+  }
+  
+  .box::before {
+      left: -20px;
+  }
+}
+
+/* Reduce margin between h3 and h4 */
+.box h3 {
+  margin-bottom: 5px; /* Reduce the space below h3 */
+}
+
+.box h4 {
+  margin-top: 0; /* Remove or reduce the space above h4 */
+  font-size: 1.1em; /* Optional: Adjust the font size of h4 if necessary */
+  color: #666; /* Optional: Set color for h4 */
+}
+
+/* Set the default link color */
+a {
+    color: #0f8766; /* Apply the default color */
+    text-decoration: none; /* Remove underline by default */
+}
+
+/* Set the hover color */
+a:hover {
+    color: #78ba0c; /* Change color on hover */
+    text-decoration: underline; /* Optional: Add underline on hover */
+}
+
+/* Set the link color on focus (when tabbing through) */
+a:focus {
+    color: #78ba0c; /* Change color on focus */
+    outline: none; /* Remove the default outline */
+}
+
+/* Optional: Set link color on active state (when clicked) */
+a:active {
+    color: #0f8766; /* Revert color when clicked */
+}
+
+
+
+

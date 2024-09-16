@@ -10,7 +10,7 @@ publishDir = "public"
     description_photo = "portfolio.jpg"
     favicon = "favicon.png"
     logo = "logo.png"
-    email = "nhudait@berkeley.edu"
+    email = "nehahudait@gmail.com"
     linkedin = "https://linkedin.com/in/nehahudait"
     github = "nhudait"
 
@@ -19,31 +19,37 @@ publishDir = "public"
 
 [params.hero]
     enable = true
-    avatar = "avatar.jpg"
-    subtitle = "Hi, I'm Neha, a recent UC Berkeley graduate passionate about making technology more accessible."
-    hero_right = ["I recently graduated UC Berkeley with a dual-degree in [Electrical Engineering & Computer Sciences](https://eecs.berkeley.edu/) and [Business Administration](https://haas.berkeley.edu/) through the [Management, Entrepreneurship, and Technology](https://met.berkeley.edu) (M.E.T.) Program.",  " I'm from Southwest Virginia and am passionate about bridging the gap between technology and accessibility. I've seen the impact that technological gentrification and technological illteracy has on my community. As a result, I've dedicated much of my academic and professional career in exploring emerging technologies and how they can impact different use cases like my own community.", "I have experience in the fields of product and program management, software development, machine learning, and data analytics which you can read about below! I'm always looking for new and exciting opportunities! Feel free to shoot me an email at nhudait@berkeley.edu or [schedule a time to meet.](https://calendly.com/hudait)" ]
+    avatar = "avatar2.png"
+    subtitle = "Neha Hudait"
+    hero_right = ["I'm a Security Product Manager based in San Francisco.","Currently, I am at NVIDIA building products and defining security strategy to make NVIDIA's and the industry's AI and accelerated computing products more secure." ,"When I'm not working, I love playing with my two kittens, Kaju and Kulfi, cooking new recipes, and playing mystery games on my Nintendo Switch."]
 
     resume = "resume.pdf"
 
 [params.process]
-    enable = true
+    enable = false
     title = "Projects"
     subtitle = "Full Process Design"
 
 [params.case_studies]
-    enable = true
+    enable = false
     title = "Experience"
     subtitle = "Technical"
 
 [params.projects]
-    enable = true
+    enable = false
     title = "Extracurriculars"
     subtitle = "Test"
 
 [params.other]
     enable = true
-    title = "Additional"
+    title = "Experience"
     subtitle = "Test"
+
+[params.timeline]
+    enable = true
+    title = "Extracurriculars"
+    subtitle = "Test"
+
 
 [params.courses]
     enable = false

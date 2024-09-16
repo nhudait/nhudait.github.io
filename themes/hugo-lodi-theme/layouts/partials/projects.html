@@ -8,11 +8,11 @@
             {{ $baseUrl := .Site.BaseURL }}
             {{ range where site.RegularPages "Type" "extracurriculars" }}
             <div class="activity-item">
-                <a href="{{ .URL }}"><img src="{{ $baseUrl }}img/{{ .Params.activity_thumbnail }}" alt="" height="100px"></a>
+                <a href="{{ .Permalink }}"><img src="{{ $baseUrl }}img/{{ .Params.activity_thumbnail }}" alt="" height="100px"></a>
                 <h4>{{ .Params.club_short_title }}</h4>
                 <h5>{{ .Params.club_subtitle }}</h5>
                 <p>{{ .Params.club_description }}</p>
-                <!-- <a href="{{ .URL }}" class="read-more">Read Me</a> -->
+                <!-- <a href="{{ .Permalink }}" class="read-more">Read Me</a> -->
             </div>
             {{ end }}
         </div>

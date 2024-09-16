@@ -1,4 +1,5 @@
 <nav class="main-navigation stuckMenu">
+    <div class="nav-container"> 
     <a href="{{ .Site.BaseURL }}">
         <img class="logo" src="{{ .Site.BaseURL }}img/logo.png" alt="{{ .Site.Title }}">
     </a>
@@ -24,6 +25,10 @@
         {{ if .Site.Params.other.enable }}
         <a href="#" class="main-navigation-link" id="other" data-scroll-goto="5">{{ .Site.Params.other.title }}</a>
         {{ end }}
-
+        <!-- Timeline --> 
+        {{ if .Site.Params.timeline.enable }}
+        <a href="#" class="main-navigation-link" id="timeline" data-scroll-goto="6">{{ .Site.Params.timeline.title }}</a>
+        {{ end }}
     </div>
+</nav>
 </nav>

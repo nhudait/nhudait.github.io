@@ -33,10 +33,14 @@
             {{ partial "other.html" . }}
             {{ end }}
 
+            {{ if .Site.Params.timeline.enable }}
+            {{ partial "timeline.html" . }}
+            {{ end }}
+
             <!-- Calendly badge widget begin -->
             <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
             <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
-            <script type="text/javascript">Calendly.initBadgeWidget({ url: 'https://calendly.com/hudait/meeting', text: 'Let\'s Chat', color: '#007380', textColor: '#ffffff', branding: true });</script>
+            <script type="text/javascript">Calendly.initBadgeWidget({ url: 'https://calendly.com/hudait/meeting', text: 'Let\'s Chat', color: '#0f8766', textColor: '#ffffff', branding: true });</script>
             <!-- Calendly badge widget end -->
 
             {{ if .Site.Params.footer.enable }}
