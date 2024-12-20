@@ -920,7 +920,6 @@ section {
   grid-template-columns: 1fr;
   gap: 30px;
   max-width: 1000px;
-  margin: 0 auto;
   position: relative;
   z-index: 2; /* Ensure the content appears above the line */
   padding-left: 50px; /* Space for the line and circles */
@@ -952,7 +951,7 @@ section {
 /* Circle Styling */
 .circle {
   position: absolute;
-  left: -46px; /* Align with the vertical line */
+  left: -45px; /* Align with the vertical line */
   top: 25px; /* Align with the corresponding box */
   width: 12px;
   height: 12px;
@@ -971,7 +970,7 @@ section {
   border: 1px solid #e0e0e0;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
-  margin-left: -10px; /* Align content to the right of the line */
+  margin-left: 10px; /* Align content to the right of the line */
   position: relative;
   z-index: 3;
 }
@@ -998,14 +997,13 @@ section {
 h3 {
   font-size: 1.5em;
   color: #333;
-  margin-bottom: 10px;
 }
 
 /* Styling for the description or details of each entry */
 p, li, ul {
   font-size: 1em;
   color: #666;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 /* Media query for responsiveness */
@@ -1039,8 +1037,8 @@ a {
 
 /* Set the hover color */
 a:hover {
-    color: #78ba0c; /* Change color on hover */
-    text-decoration: underline; /* Optional: Add underline on hover */
+    color: #ffffff; /* Change color on hover */
+    text-decoration: none; /* Optional: Add underline on hover */
 }
 
 /* Set the link color on focus (when tabbing through) */
