@@ -21,7 +21,7 @@ publishDir = "public"
     enable = true
     avatar = "avatar2.png"
     subtitle = "Neha Hudait"
-    hero_right = ["I'm a Security Product Manager based in San Francisco.","Currently, I am at NVIDIA building products and defining security strategy to make NVIDIA's and the industry's AI and accelerated computing products more secure." ,"When I'm not working, I love playing with my two kittens, Kaju and Kulfi, cooking new recipes, and playing mystery games on my Nintendo Switch."]
+    hero_right = ["I'm a Security Product Manager based in San Francisco.","Currently, I am at NVIDIA building products and defining security strategy to make NVIDIA's and the industry's AI and accelerated computing products more secure." ,"When I'm not working, I love playing with my two kittens, Kaju and Kulfi, cooking new recipes, reading, playing the daily Murdle & NYT games, and playing mystery games on my Nintendo Switch."]
 
     resume = "resume.pdf"
 
