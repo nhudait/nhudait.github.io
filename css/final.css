@@ -32,13 +32,6 @@ h1 {
   white-space: nowrap; /* Ensure text doesn't break onto new lines */
 }
 
-
-
-
-
-
-
-
 a {
   text-decoration: none;
   -webkit-transition: 0.1s ease-in;
@@ -873,24 +866,40 @@ section {
   align-items: center; /* Center vertically */
   height: 100%; /* Ensure the container takes up full height */
   width: 100%; /* Ensure the container takes up full width */
+  flex-direction: row; /* Display avatar and text side by side */
 }
 
 .avatar2 {
-  width: 60%; /* Set a fixed width for the image to make it smaller */
-  height: 60%; /* Set a fixed height to match the width */
+  width: 300px; /* Set a fixed width for the image to make it smaller */
+  height: auto; /* Set a fixed height to match the width */
   border-radius: 50%; /* Make the image circular */
   object-fit: cover; /* Ensure the image fits inside the circular shape */
-  max-width: 100%; /* Ensure responsiveness */
-  max-height: 100%; /* Ensure responsiveness */
 }
 
 
 /* Container for the resume or other content entries */
 .other-content {
+  flex: 1;
   padding: 50px 0;
   background-color: #f9f9f9;
   position: relative;
   min-height: 100vh; /* Ensure the container has sufficient height */
+}
+
+@media (max-width: 768px) {
+  .avatar-container {
+      flex-direction: column; /* Stack avatar and text vertically */
+      align-items: center;
+  }
+
+  .avatar2 {
+      margin: 0 0 20px 0; /* Add margin below the avatar for spacing */
+      width: 50%; /* Optional: Adjust the size of the avatar for mobile */
+  }
+
+  .other-content {
+      text-align: center; /* Center the text on smaller screens */
+  }
 }
 
 /* The vertical line */
@@ -914,9 +923,47 @@ section {
   margin: 0 auto;
   position: relative;
   z-index: 2; /* Ensure the content appears above the line */
+  padding-left: 50px; /* Space for the line and circles */
 }
 
-/* Box for each entry (resume item or other content) */
+/* Grid layout for the content entries */
+.row {
+  position: relative;
+}
+
+/* Styling for each entry in the timeline */
+.entry {
+  position: relative;
+  margin-bottom: 30px; /* Space between entries */
+}
+
+/* Vertical line for the timeline */
+.row::before {
+  content: '';
+  position: absolute;
+  left: 10px; /* Position the line */
+  top: 0;
+  bottom: 0;
+  width: 0.5px;
+  background-color: #666;
+  z-index: 1;
+}
+
+/* Circle Styling */
+.circle {
+  position: absolute;
+  left: -46px; /* Align with the vertical line */
+  top: 25px; /* Align with the corresponding box */
+  width: 12px;
+  height: 12px;
+  background-color: #0f8766;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 0 0 3px #0f8766;
+  z-index: 2; /* Ensure it appears above the line */
+}
+
+/* Box Styling */
 .box {
   padding: 20px;
   background-color: white;
@@ -924,24 +971,9 @@ section {
   border: 1px solid #e0e0e0;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
+  margin-left: -10px; /* Align content to the right of the line */
   position: relative;
-  margin-left: 50px; /* Move the content to the right of the line */
   z-index: 3;
-}
-
-/* Circle at the start of each entry */
-.box::before {
-  content: '';
-  position: absolute;
-  left: -30px; /* Position to the left, aligned with the line */
-  top: 20px;
-  width: 12px;
-  height: 12px;
-  background-color: #0f8766; /* Circle color */
-  border-radius: 50%;
-  border: 2px solid white;
-  box-shadow: 0 0 0 3px #0f8766;
-  z-index: 3; /* Ensure circles appear above the line */
 }
 
 /* Hover effect for each box */
@@ -979,17 +1011,14 @@ p, li, ul {
 /* Media query for responsiveness */
 @media (max-width: 768px) {
   .row {
-      grid-template-columns: 1fr;
+    grid-template-columns: 1fr; /* Keep single-column layout */
   }
-  
+
   .box {
-      margin-left: 20px;
-  }
-  
-  .box::before {
-      left: -20px;
+    margin-left: -10px; /* Ensure the box aligns properly with the circle */
   }
 }
+
 
 /* Reduce margin between h3 and h4 */
 .box h3 {
@@ -1025,6 +1054,76 @@ a:active {
     color: #0f8766; /* Revert color when clicked */
 }
 
+/* Card Tile Row Styling */
+.card-tile-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
 
+/* Card Tile Styling */
+.card-tile {
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-start; /* Aligns image and content at the top */
+  gap: 20px;
+  flex: 1;
+  border: 1px solid #e0e0e0; /* Matches box border */
+  background-color: #ffffff; /* Matches box background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Matches initial box shadow */
+  transition: box-shadow 0.3s ease, border-color 0.3s ease; /* Smooth transition for hover effects */
+}
 
+/* Hover Effect - Matches Experience Section */
+.card-tile:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+  border-color: #007380; /* Matches hover border effect */
+}
+
+/* Card Tile Image */
+.card-tile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+/* Card Tile Content */
+.card-tile-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column; /* Stack title, subtitle, and description */
+  justify-content: flex-start; /* Align content to the top */
+}
+
+/* Gradient Styling for Titles */
+.card-tile-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, #78ba0c, #0f8766);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin: 0; /* Remove default margin */
+}
+
+/* Subtitle Styling */
+.card-tile-subtitle {
+  font-size: 1.0rem;
+  font-weight: bold;
+  color: #333333; /* Matches the color for subtitles in the experience section */
+  margin: 10px 0 5px; /* Add spacing below the subtitle */
+}
+
+/* Description Styling */
+.card-tile-description {
+  color: #666;
+  font-size: 0.8rem;
+  line-height: 1.6;
+  margin-top: 5px; /* Add slight spacing for readability */
+}
 
