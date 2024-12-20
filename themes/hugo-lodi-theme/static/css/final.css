@@ -24,7 +24,6 @@ h1 {
   display: inline-block;
   padding: 0.2em 0; /* Slight padding to avoid clipping */
   line-height: 1.2; /* Enough space between lines */
-  margin: 0;
   vertical-align: middle;
   height: auto; /* Allow height to be flexible */
   min-height: 1em; /* Ensure at least the height of one line of text */
@@ -321,6 +320,12 @@ section {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+:-webkit-any(article, aside, nav, section) h1 {
+  font-size: 1.5em;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
 }
 
 .courses-item {
